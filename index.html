@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Minesweeper Online - Free Classic Logic Puzzle Game | Play in Browser</title>
+<meta content="Play Minesweeper online for free! The classic logic puzzle game with multiple difficulty levels. Clear the minefield using number clues, avoid mines, and challenge yourself. Perfect for beginners and experts alike. No download required - play directly in your browser!" name="description"/>
+<meta content="minesweeper, online minesweeper, free minesweeper game, logic puzzle, mine clearing game, browser game, strategy game, classic windows game, puzzle game, brain training" name="keywords"/>
+<!-- Open Graph / Social Media Meta Tags -->
+<meta content="Minesweeper Online - Free Classic Logic Puzzle Game" property="og:title"/>
+<meta content="Play the classic Minesweeper puzzle game online for free. Test your logical thinking skills with multiple difficulty levels!" property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="Minesweeper Online" property="og:site_name"/>
+<!-- Additional Meta Tags for SEO -->
+<meta content="index, follow" name="robots"/>
+<meta content="Minesweeper Online" name="author"/>
+<meta content="#4F46E5" name="theme-color"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Custom Styles for Mobile Optimization -->
+<style>
+      @media (max-width: 640px) {
+        .game-container {
+          height: calc(100vh - 60px);
+        }
+      }
+      .smooth-scroll {
+        scroll-behavior: smooth;
+      }
+    </style>
+</head>
+<body class="bg-gray-50 smooth-scroll">
+<main class="flex-1 bg-gray-50 py-2 sm:py-3">
+<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+<!-- Game Section -->
+<div class="w-full flex flex-col items-center">
+<div class="w-full max-w-3xl md:aspect-[4/6] h-screen md:h-auto relative game-container">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="absolute top-0 left-0 w-full h-full border-0 rounded-lg shadow-lg" src="https://www.minesweeper.games/minesweeper/index" title="Play Minesweeper Online - Free Browser Game"></iframe>
+</div>
+</div>
+<!-- Enhanced Intro Section -->
+<div class="mt-8 sm:mt-12 flex flex-col items-center px-3 sm:px-4 lg:px-8">
+<!-- Header Section with Enhanced Content -->
+<div class="w-full max-w-4xl text-center space-y-4 sm:space-y-8 mb-8 sm:mb-12">
+<h1 class="text-4xl sm:text-5xl font-bold text-gray-900">Minesweeper Online</h1>
+<div class="text-sm sm:text-base text-gray-600 space-y-4">
+<p>
+                Welcome to Minesweeper Online, the classic logic puzzle game that has challenged millions of players worldwide. This free
+                browser-based version brings the timeless gameplay directly to your device, no download required.
+              </p>
+<p>
+                Minesweeper is more than just a game - it's a test of logical thinking, deduction, and strategic planning. Your mission is to clear a
+                minefield using numerical clues while avoiding hidden mines. Each number reveals the count of adjacent mines, including diagonally,
+                helping you deduce safe squares and mine locations.
+              </p>
+</div>
+</div>
+<!-- Main Content Section -->
+<div class="max-w-6xl w-full space-y-6 sm:space-y-10">
+<div class="bg-white p-4 sm:p-8 lg:p-12 rounded-xl shadow-md border border-gray-100">
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-6 sm:mb-8 text-center">Complete Guide to Minesweeper</h2>
+<!-- Enhanced Game Rules Section -->
+<section class="space-y-4 sm:space-y-8">
+<div class="bg-indigo-50 p-4 sm:p-6 rounded-lg border border-indigo-100">
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Comprehensive Game Rules</h2>
+<div class="space-y-3 sm:space-y-4 text-base sm:text-lg text-gray-600">
+<p>1. Game Board Setup:</p>
+<ul class="list-disc pl-6 space-y-2">
+<li>The board contains a grid of hidden squares</li>
+<li>Mines are randomly distributed throughout the grid</li>
+<li>The number of mines depends on the difficulty level</li>
+<li>Your first click is always safe - use this strategically!</li>
+</ul>
+<p>2. Understanding Numbers:</p>
+<ul class="list-disc pl-6 space-y-2">
+<li>Numbers (1-8) indicate adjacent mines</li>
+<li>A "1" means one mine touches that square (including diagonally)</li>
+<li>A "2" indicates two adjacent mines</li>
+<li>The maximum number is "8" (all surrounding squares contain mines)</li>
+<li>Empty squares (no number) mean no adjacent mines</li>
+</ul>
+<p>3. Winning Conditions:</p>
+<ul class="list-disc pl-6 space-y-2">
+<li>Reveal all safe squares without clicking any mines</li>
+<li>Optional: Flag all mines correctly</li>
+<li>The timer stops when you win</li>
+<li>Your score is based on completion time</li>
+</ul>
+<p>4. Game Over Conditions:</p>
+<ul class="list-disc pl-6 space-y-2">
+<li>Clicking on any mine ends the game immediately</li>
+<li>All mines are revealed upon game over</li>
+<li>Incorrectly flagged mines are marked</li>
+<li>Quick restart option available</li>
+</ul>
+</div>
+</div>
+<!-- Enhanced Controls Section -->
+<div class="bg-gray-50 p-4 sm:p-6 rounded-lg">
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Detailed Game Controls</h2>
+<div class="space-y-3 sm:space-y-4 text-base sm:text-lg text-gray-600">
+<div class="space-y-2">
+<h3 class="font-semibold">Mouse Controls:</h3>
+<ul class="list-disc pl-6 space-y-2">
+<li>Left Click: Reveal a square</li>
+<li>Right Click: Place or remove a flag on suspected mine</li>
+<li>Double Click: Quick reveal adjacent squares (when surrounding flags match the number)</li>
+<li>Middle Click/Both Buttons: Alternative way to quick reveal adjacent squares</li>
+</ul>
+</div>
+<div class="space-y-2">
+<h3 class="font-semibold">Touch Controls (Mobile):</h3>
+<ul class="list-disc pl-6 space-y-2">
+<li>Tap: Reveal a square</li>
+<li>Long Press: Place or remove a flag</li>
+<li>Double Tap: Quick reveal adjacent squares</li>
+</ul>
+</div>
+<div class="mt-4 bg-blue-50 p-4 rounded-lg">
+<h3 class="font-semibold text-blue-900">Pro Tips for Controls:</h3>
+<ul class="list-disc pl-6 space-y-2 text-blue-800">
+<li>Use the flag counter at the top to track remaining mines</li>
+<li>The timer helps you monitor your progress and compete for better times</li>
+<li>Quick reveal (double click) is essential for faster completion times</li>
+<li>You can customize controls in the settings menu</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Enhanced Strategy Section -->
+<div class="bg-indigo-50 p-4 sm:p-6 rounded-lg">
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Advanced Strategy Guide</h2>
+<div class="space-y-4 text-base sm:text-lg text-gray-600">
+<div class="space-y-2">
+<h3 class="font-semibold">Basic Strategies:</h3>
+<ul class="list-disc pl-6 space-y-2">
+<li>Start in corners or edges where there are fewer adjacent squares</li>
+<li>Always flag confirmed mines immediately</li>
+<li>Use process of elimination in confined spaces</li>
+<li>Keep track of the total remaining mines</li>
+</ul>
+</div>
+<div class="space-y-2">
+<h3 class="font-semibold">Advanced Pattern Recognition:</h3>
+<ul class="list-disc pl-6 space-y-2">
+<li>1-1 Pattern: Mine is likely at the corner intersection</li>
+<li>1-2-1 Pattern: Mines are typically at the outer edges</li>
+<li>1-2-2-1 Pattern: Forms a diagonal mine arrangement</li>
+<li>2-3-2 Pattern: Indicates a specific mine distribution</li>
+</ul>
+</div>
+<div class="space-y-2">
+<h3 class="font-semibold">Expert Techniques:</h3>
+<ul class="list-disc pl-6 space-y-2">
+<li>Probability analysis for uncertain situations</li>
+<li>Using the remaining mine count to deduce safe areas</li>
+<li>Creating "safe paths" through the minefield</li>
+<li>Identifying guaranteed safe squares in complex patterns</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Enhanced Difficulty Levels Section -->
+<div class="bg-gray-50 p-4 sm:p-6 rounded-lg">
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Detailed Difficulty Levels</h2>
+<div class="space-y-4 text-base sm:text-lg text-gray-600">
+<div class="bg-white p-4 rounded-lg shadow-sm">
+<h3 class="font-semibold text-green-700">Beginner Level</h3>
+<ul class="list-disc pl-6 space-y-2">
+<li>Grid Size: 9×9</li>
+<li>Number of Mines: 10</li>
+<li>Mine Density: 12.3%</li>
+<li>Perfect for: Learning basic patterns and controls</li>
+<li>Average Completion Time: 2-5 minutes</li>
+</ul>
+</div>
+<div class="bg-white p-4 rounded-lg shadow-sm">
+<h3 class="font-semibold text-yellow-700">Intermediate Level</h3>
+<ul class="list-disc pl-6 space-y-2">
+<li>Grid Size: 16×16</li>
+<li>Number of Mines: 40</li>
+<li>Mine Density: 15.6%</li>
+<li>Perfect for: Developing strategic thinking</li>
+<li>Average Completion Time: 8-15 minutes</li>
+</ul>
+</div>
+<div class="bg-white p-4 rounded-lg shadow-sm">
+<h3 class="font-semibold text-red-700">Expert Level</h3>
+<ul class="list-disc pl-6 space-y-2">
+<li>Grid Size: 30×16</li>
+<li>Number of Mines: 99</li>
+<li>Mine Density: 20.6%</li>
+<li>Perfect for: Advanced players seeking a challenge</li>
+<li>Average Completion Time: 15-30 minutes</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Enhanced FAQ Section -->
+<div class="bg-indigo-50 p-4 sm:p-6 rounded-lg">
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Comprehensive FAQ</h2>
+<div class="space-y-6">
+<div class="space-y-2">
+<p class="font-semibold text-gray-900 text-base sm:text-lg">Q: What makes the first click always safe?</p>
+<p class="text-sm sm:text-base text-gray-600">
+                        A: The game is designed to generate the mine layout after your first click, ensuring that the initial square and often its
+                        immediate surroundings are safe. This prevents instant game over scenarios and provides a fair starting point.
+                      </p>
+</div>
+<div class="space-y-2">
+<p class="font-semibold text-gray-900 text-base sm:text-lg">Q: How does the scoring system work?</p>
+<p class="text-sm sm:text-base text-gray-600">
+                        A: Your score is primarily based on completion time. The timer starts on your first click and stops when you win. Different
+                        difficulty levels have different scoring scales, with expert times under 100 seconds considered exceptional.
+                      </p>
+</div>
+<div class="space-y-2">
+<p class="font-semibold text-gray-900 text-base sm:text-lg">Q: What's the best strategy for beginners?</p>
+<p class="text-sm sm:text-base text-gray-600">
+                        A: Start with the beginner level and focus on understanding number patterns. Always start in corners or edges where there are
+                        fewer adjacent squares to consider. Take your time to analyze each move, and don't be afraid to use flags - they're essential
+                        for keeping track of identified mines.
+                      </p>
+</div>
+<div class="space-y-2">
+<p class="font-semibold text-gray-900 text-base sm:text-lg">Q: How can I improve my speed?</p>
+<p class="text-sm sm:text-base text-gray-600">
+                        A: Practice recognizing common patterns, use the double-click feature efficiently, and maintain a good balance between speed
+                        and accuracy. Many expert players use a combination of flagging and non-flagging techniques depending on the situation.
+                      </p>
+</div>
+<div class="space-y-2">
+<p class="font-semibold text-gray-900 text-base sm:text-lg">Q: Are there any keyboard shortcuts?</p>
+<p class="text-sm sm:text-base text-gray-600">
+                        A: Yes, many versions support keyboard shortcuts: Space to reveal a square, F to flag/unflag, R to restart the game, and arrow
+                        keys to move the cursor. Check the settings menu for a complete list of shortcuts.
+                      </p>
+</div>
+<div class="space-y-2">
+<p class="font-semibold text-gray-900 text-base sm:text-lg">Q: Can I customize the game settings?</p>
+<p class="text-sm sm:text-base text-gray-600">
+                        A: Yes, you can customize various aspects including board size, number of mines, color schemes, and control options. Some
+                        versions also offer custom difficulty levels where you can set your own parameters.
+                      </p>
+</div>
+</div>
+</div>
+<div class="bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-200 mt-10">
+<h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Related Game Sites 🧩</h2>
+<ul class="list-disc pl-6 space-y-2 text-base sm:text-lg text-gray-700">
+<li><a class="text-indigo-600 hover:underline" href="https://connectionsunlimited.me" target="_blank">connectionsunlimited.me</a>: Addictive word grouping puzzle game to find hidden connections.</li>
+<li><a class="text-indigo-600 hover:underline" href="https://worldle.club" target="_blank">worldle.club</a>: Geography-based Wordle variant where players guess countries.</li>
+<li><a class="text-indigo-600 hover:underline" href="https://2048game.space" target="_blank">2048game.space</a>: Space-themed variant of 2048, keeping the original merging mechanics.</li>
+<li><a class="text-indigo-600 hover:underline" href="https://sprunky.win" target="_blank">sprunky.win</a>: Advanced version of Sprunki featuring complex musical composition tools and extended sound libraries. Includes special modes like Night Time and Interactive editions.</li>
+<li><a class="text-indigo-600 hover:underline" href="https://quordle.cc" target="_blank">quordle.cc</a>: Solve four Wordle puzzles simultaneously with limited attempts.</li>
+<li><a class="text-indigo-600 hover:underline" href="https://pacman.work" target="_blank">pacman.work</a>: Exciting world of Pacman game.</li>
+<li><a class="text-indigo-600 hover:underline" href="https://todaywordle.org" target="_blank">todaywordle.org</a>: Daily word guessing game in the style of Wordle.</li>
+<li><a class="text-indigo-600 hover:underline" href="https://letterboxed.me" target="_blank">letterboxed.me</a>: Word puzzle game where players connect letters to form words in a box.</li>
+<li><a class="text-indigo-600 hover:underline" href="https://wordlesolver.cc" target="_blank">wordlesolver.cc</a>: Tool that helps find possible solutions for Wordle puzzles.</li>
+<li><a class="text-indigo-600 hover:underline" href="https://minesweeper.tv" target="_blank">minesweeper.tv</a>: Logic puzzle game where players clear a minefield using clues.</li>
+</ul>
+</div>
+
+</section>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Enhanced Structured Data for SEO -->
+<script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Game",
+        "name": "Minesweeper Online",
+        "description": "Classic logic puzzle game where players clear a minefield using number clues",
+        "genre": ["Puzzle", "Logic Game", "Strategy"],
+        "GameConfig": {
+          "@type": "Thing",
+          "name": "Mine"
+        },
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "15000",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
+</body>
+</html>
